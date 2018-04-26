@@ -1,0 +1,64 @@
+db.Mobiles.insert({
+    "title": "Apple iPhone SE (Rose Gold, 32GB)",
+    "price": "18799 ",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/610Xy47BnAL._SL1000_.jpg",
+    "color": "Rose Gold"
+});
+
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 6 (Space Grey, 32GB)",
+    "price": "24999  ",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/814lO6nm9vL._SL1500_.jpg",
+    "color": "Space Grey"
+});
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 7 (Jet Black, 32GB)",
+    "price": "41999",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/81vhscwAo0L._SL1500_.jpg",
+    "color": "Jet Black"
+});
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 7 (Black, 32GB)",
+    "price": "41999",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/51odjdfuPTL.jpg",
+    "color": "Black"
+});
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 7 (Gold, 32GB)",
+    "price": "41999",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/51StBYU9XfL.jpg",
+    "color": "Gold"
+});
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 7 (Rose Gold, 32GB)",
+    "price": "44999",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/51AUm5TYJsL.jpg",
+    "color": "Rose Gold"
+});
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 7 (Silver, 32GB)",
+    "price": "43999",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/519zImiZraL.jpg",
+    "color": "silver"
+});
+
+db.Mobiles.insert({
+    "title": "Apple iPhone 7 (Gold, 128GB)",
+    "price": "54999",
+    "imageurl": "https://images-na.ssl-images-amazon.com/images/I/51StBYU9XfL.jpg",
+    "color": "Gold"
+});
+
+db.Mobiles.insert({
+        "title": "Apple iPhone 6 (Space Grey, 32GB)",
+        "price": "24999",
+        "imageurl": "https://images-na.ssl-images-amazon.com/images/I/814lO6nm9vL._SL1500_.jpg",
+        "color": "Space Grey"
+    }
+};

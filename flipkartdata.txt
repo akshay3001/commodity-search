@@ -1,0 +1,122 @@
+db.Mobiles.insert({  pid : "ACCEYY75X9RKJDHR" , title: "Apple Back Cover for Apple iPhone 7, Apple iPhone 8  (Red, Silicon)", imageurl : "https://rukminim1.flixcart.com/image/832/832/j7usl8w0/case
+covers/back-cover/d/h/r/apple-mqgp2zm-a-original-imaeyy85bxeh42xd.jpeg?q=70" , 
+price: 3100 , 
+Producturl : "https://www.flipkart.com/apple-iphone-se-rose-gold-32-gb/p/itmetm9fyy3n7zfz?pid=MOBETM93F7DNN5&lid=LSTMOBETM93F7DGJNN5VCOWGW&marketplace=FLIPKART&srno=s_1_7&otracker=search&fm=SEARCH&iid=e0625670-e03c-4d5a-ac44-4440de3b4aa4.MOBETM93F7DGJNN5.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=
+6taohuyo0000001521278340036&qH=1f3870be274f6c49"});
+
+db.Mobiles.insert({  pid : "MOBEN2YYQH8PSYXG" , title: "Apple iPhone 6s (Gold, 32 GB)
+", imageurl : "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/y/x/g/apple-iphone-6s-mn112hn-a-original-imaexw6szu6xhzgr.jpeg?q=70" , price: 34999 , Producturl : "https://www.flipkart.com/apple-iphone-6s-gold-32-gb/p/itmen2yynt6bz3gg?pid=MOBEN2YYQH8PSYXG&srno=s_1_1&otracker=search&lid=LSTMOBEN2YYQH8PSYXG4TGFKX&fm=SEARCH&iid=8272fe6b-919c-4f48-99db-e2e7b440ee82.MOBEN2YYQH8PSYXG.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=028f2yil3k0000001521297266795&qH=4673a7c42221208f",
+color : "Gold"
+
+});
+
+db.Mobiles.insert({  pid : "MOBEXRGVF8NHMGXJ" ,
+ title: "Apple iPhone X (Silver, 64 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/mobile/f/y/v/apple-iphone-x-mqa92hn-a-original-imaeyysgqbg8qmhn.jpeg?q=70",
+ price: 83499 , 
+ Producturl : "https://www.flipkart.com/apple-iphone-x-silver-64-gb/p/itmexrgvze5as67e?pid=MOBEXRGVF8NHMGXJ&srno=s_1_12&otracker=search&lid=LSTMOBEXRGVF8NHMGXJIYIKAW&fm=SEARCH&iid=c915e4fc-caf6-430a-baad-c45878476fd5.MOBEXRGVF8NHMGXJ.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=028f2yil3k0000001521297266795&qH=4673a7c42221208f",
+ color : "Silver"
+
+ });
+
+
+
+db.Mobiles.insert({  pid : "MOBEXRGVQKBREZP8" ,
+ title: "Apple iPhone 8 Plus (Space Grey, 64 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j7ksia80/mobile/t/4/f/apple-iphone-8-plus-mq8g2hn-a-original-imaexsfhxepbngdq.jpeg?q=70",
+ price: 65999 , 
+ Producturl : "https://www.flipkart.com/apple-iphone-8-plus-space-grey-64-gb/p/itmexrgvehtzhh9v?pid=MOBEXRGVQKBREZP8&srno=s_1_16&otracker=search&lid=LSTMOBEXRGVQKBREZP8PI8YSV&fm=SEARCH&iid=0e9a6bd5-c5a9-48c1-bee6-f3b73ae354e2.MOBEXRGVQKBREZP8.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=028f2yil3k0000001521297266795&qH=4673a7c42221208f",
+ color : "Space Grey"
+
+ });
+
+db.Mobiles.insert({  pid : "MOBEY5HND7X8YGAD" ,
+ title: "Apple iPhone SE (Rose Gold, 128 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j81xsi80/mobile/g/a/d/apple-iphone-se-na-original-imaey5ny62z823wb.jpeg?q=70",
+ price: 27999, 
+ Producturl : "https://www.flipkart.com/apple-iphone-se-rose-gold-128-gb/p/itmexrdaphf3esjg?pid=MOBEY5HND7X8YGAD&srno=s_1_20&otracker=search&lid=LSTMOBEY5HND7X8YGADVXJXXE&fm=SEARCH&iid=420cad7b-cea2-43d4-bcde-d15effe2606a.MOBEY5HND7X8YGAD.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=028f2yil3k0000001521297266795&qH=4673a7c42221208f",
+ color : "Rose Gold"
+ });
+
+
+db.Mobiles.insert({  pid : "ACCEZWVGZZJKGPKM" ,
+ title: "Stuffcool Back Cover for Apple iPhone 8, Apple iPhone 7  (Black, Grip Case, Artificial Leather)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/jabdw280/cases-covers/back-cover/p/k/m/stuffcool-trioip8-blk-original-imaezwwf4pzxbzzv.jpeg?q=70",
+ price: 1099, 
+ Producturl : "https://www.flipkart.com/stuffcool-back-cover-apple-iphone-8-7/p/itmezwwfupz3gzhg?pid=ACCEZWVGZZJKGPKM&lid=LSTACCEZWVGZZJKGPKMKXASCZ&marketplace=FLIPKART&srno=s_1_7&otracker=search&fm=SEARCH&iid=f08a7eda-0048-4bc0-bf42-32b94da5ddc0.ACCEZWVGZZJKGPKM.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=028f2yil3k0000001521297266795&qH=29b1513661966116"
+ });
+
+
+
+db.Mobiles.insert({  pid : "MOBEXRGVRZFCMMYD" ,
+ title: "Apple iPhone 8 (Silver, 64 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j7ksia80/mobile/m/y/d/apple-iphone-8-mq6l2hn-a-original-imaexsbz8fggz59j.jpeg?q=70",
+ price: 56999, 
+ Producturl : "https://www.flipkart.com/apple-iphone-8-silver-64-gb/p/itmexrgvsw7vedwq?pid=MOBEXRGVRZFCMMYD&srno=s_1_5&otracker=search&lid=LSTMOBEXRGVRZFCMMYDA2PXEI&fm=SEARCH&iid=a8bf3f75-ace7-4d22-983a-50500069f9e7.MOBEXRGVRZFCMMYD.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=xylivj41k00000001521299678727&qH=e87a743696473edf",
+color:"Silver"
+
+ });
+
+
+db.Mobiles.insert({  pid : "MOBEMK62HSQDSGGF" ,
+ title: "Apple iPhone 7 (Black, 32 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/g/g/f/apple-iphone-7-mn8y2hn-a-original-imaexwzn8ynwbhtj.jpeg?q=70",
+ price: 43999, 
+ Producturl : "https://www.flipkart.com/apple-iphone-7-black-32-gb/p/itmen6daftcqwzeg?pid=MOBEMK62PN2HU7EE&srno=s_1_1&otracker=search&lid=LSTMOBEMK62PN2HU7EEINTGNU&fm=SEARCH&iid=efd25a68-073f-4774-9c6d-bcb5def8d94b.MOBEMK62PN2HU7EE.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=98n4muz5bk0000001523371167133&qH=5d05ddab4536111a",
+color:"Black"
+
+ });
+
+
+db.Mobiles.insert({  pid : "MOBEXRGVQGYYP8FV" ,
+ title: "Apple iPhone 7 (Rose Gold, 32 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/704/704/j7qi9ow0/mobile/8/5/t/apple-iphone-7-mn912hn-a-original-imaexwzngmvhunxr.jpeg?q=70", 
+ price: 44999,
+ Producturl : "https://www.flipkart.com/apple-iphone-7-rose-gold-32-gb/p/itmen6dapsvxanrk?pid=MOBEMK62JSRHU85T&srno=s_1_2&otracker=search&lid=LSTMOBEMK62JSRHU85TIU9DKW&fm=SEARCH&iid=6ac6566a-2a68-42f8-998d-255370e1e607.MOBEMK62JSRHU85T.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=98n4muz5bk0000001523371167133&qH=5d05ddab4536111a",
+color:"Rose Gold"
+
+ });
+
+
+db.Mobiles.insert({  pid : "MOBEMK62HSQDSGGF" ,
+ title: "Apple iPhone 7 (Jet Black, 32 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/704/704/j9d3bm80/mobile/8/k/apple-iphone-7-mqtx2hn-a-original-imaeyyuygs9rzmty.jpeg?q=70",
+ price: 45999, 
+ Producturl : "https://www.flipkart.com/apple-iphone-7-jet-black-32-gb/p/itmexrhyhffwbnzm?pid=MOBEXRHYYRTEN8KX&srno=s_1_3&otracker=search&lid=LSTMOBEXRHYYRTEN8KXPTJRZJ&fm=SEARCH&iid=0ba1ebe7-b416-4b41-88f4-c06257480f97.MOBEXRHYYRTEN8KX.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=98n4muz5bk0000001523371167133&qH=5d05ddab4536111a",
+color:"Jet Black"
+
+ });
+
+
+db.Mobiles.insert({  pid : "MOBEXRGVQGYYP8FV" ,
+ title: "Apple iPhone 7 (Gold, 32 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/t/f/u/apple-iphone-7-mn902hn-a-original-imaexwzmmgkzft4b.jpeg?q=70", 
+ price: 44999,
+ Producturl : "https://www.flipkart.com/apple-iphone-7-rose-gold-32-gb/p/itmen6dapsvxanrk?pid=MOBEMK62JSRHU85T&srno=s_1_2&otracker=search&lid=LSTMOBEMK62JSRHU85TIU9DKW&fm=SEARCH&iid=6ac6566a-2a68-42f8-998d-255370e1e607.MOBEMK62JSRHU85T.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=98n4muz5bk0000001523371167133&qH=5d05ddab4536111a",
+color:"Gold"
+
+ });
+
+
+
+
+
+
+
+
+db.Mobiles.insert({  pid : "MOBETM93KHC97KAV" ,
+ title: "Apple iPhone SE (Silver, 32 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/k/a/v/apple-iphone-se-mp832hn-a-original-imaexw6fws9h87cx.jpeg?q=70", 
+ price: 20999,
+ Producturl : "https://www.flipkart.com/apple-iphone-se-silver-32-gb/p/itmetm9fwstfc2qc?pid=MOBETM93KHC97KAV&srno=s_1_2&otracker=search&lid=LSTMOBETM93KHC97KAVU4MLTY&fm=SEARCH&iid=26fc0be9-2bc5-4952-9dd7-20a8ad18ada4.MOBETM93KHC97KAV.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=xylivj41k00000001521299678727&qH=e87a743696473edf",
+color:"Silver"
+ });
+
+
+db.Mobiles.insert({  pid : "MOBEN2YYDY9YZHFT" ,
+ title: "Apple iPhone 6s (Silver, 32 GB)",
+ imageurl : "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/h/f/t/apple-iphone-6s-mn0x2hn-a-original-imaexw7fpbbfwwtw.jpeg?q=70", 
+ price: 36999,
+ Producturl : "https://www.flipkart.com/apple-iphone-6s-silver-32-gb/p/itmen2yyhbbky4nu?pid=MOBEN2YYDY9YZHFT&srno=s_1_3&otracker=search&lid=LSTMOBEN2YYDY9YZHFTMT6VHO&fm=SEARCH&iid=95b22ecf-9861-4332-af36-9c1cbcbf5605.MOBEN2YYDY9YZHFT.SEARCH&ppt=Search%20Page&ppn=Search%20Page&ssid=xylivj41k00000001521299678727&qH=e87a743696473edf",
+ color:"Silver"
+ });

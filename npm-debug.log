@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\e5544323\\AppData\\Roaming\\node\\node.exe',
+1 verbose cli   'C:\\Users\\e5544323\\AppData\\Roaming\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'nodemon',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData nodemon@^1.17.12
+8 silly fetchNamedPackageData nodemon
+9 silly mapToRegistry name nodemon
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'nodemon',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'nodemon',
+12 silly mapToRegistry   name: 'nodemon',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/nodemon
+14 verbose request uri https://registry.npmjs.org/nodemon
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:55:42 PM
+17 verbose request id 344b45a86fb0b2e8
+18 verbose etag "5ac2ec97-5217f"
+19 verbose lastModified Tue, 3 Apr 2018 2:53:11 GMT
+20 http request GET https://registry.npmjs.org/nodemon
+21 http 304 https://registry.npmjs.org/nodemon
+22 verbose headers { date: 'Thu, 26 Apr 2018 12:25:41 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: '"5ac2ec97-5217f"',
+22 verbose headers   age: '10138',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-fra19136-FRA',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '34',
+22 verbose headers   'x-timer': 'S1524745541.409046,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Thu, 26 Apr 2018 12:25:41 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: '"5ac2ec97-5217f"',
+23 silly get     age: '10138',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-fra19136-FRA',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '34',
+23 silly get     'x-timer': 'S1524745541.409046,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/nodemon from cache
+25 verbose get saving nodemon to C:\Users\e5544323\AppData\Roaming\npm-cache\registry.npmjs.org\nodemon\.cache.json
+26 verbose correctMkdir C:\Users\e5544323\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly fetchNamedPackageData No valid target from cache, forcing network
+28 verbose request uri https://registry.npmjs.org/nodemon
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 5:55:43 PM
+31 http request GET https://registry.npmjs.org/nodemon
+32 http 200 https://registry.npmjs.org/nodemon
+33 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+33 verbose headers   server: 'UploadServer',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'last-modified': 'Tue, 3 Apr 2018 2:53:11 GMT',
+33 verbose headers   etag: '"5ac2ec97-5217f"',
+33 verbose headers   'x-npm-region': 'EU-East',
+33 verbose headers   'content-encoding': 'gzip',
+33 verbose headers   'content-length': '36635',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Thu, 26 Apr 2018 12:25:41 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '10138',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-fra19136-FRA',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '35',
+33 verbose headers   'x-timer': 'S1524745542.648968,VS0,VE0',
+33 verbose headers   vary: 'Accept-Encoding, Accept' }
+34 silly get cb [ 200,
+34 silly get   { 'content-type': 'application/json; charset=UTF-8',
+34 silly get     server: 'UploadServer',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'last-modified': 'Tue, 3 Apr 2018 2:53:11 GMT',
+34 silly get     etag: '"5ac2ec97-5217f"',
+34 silly get     'x-npm-region': 'EU-East',
+34 silly get     'content-encoding': 'gzip',
+34 silly get     'content-length': '36635',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Thu, 26 Apr 2018 12:25:41 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '10138',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-fra19136-FRA',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '35',
+34 silly get     'x-timer': 'S1524745542.648968,VS0,VE0',
+34 silly get     vary: 'Accept-Encoding, Accept' } ]
+35 verbose get saving nodemon to C:\Users\e5544323\AppData\Roaming\npm-cache\registry.npmjs.org\nodemon\.cache.json
+36 verbose correctMkdir C:\Users\e5544323\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 silly fetchPackageMetaData Error: No compatible version found: nodemon@^1.17.12
+37 silly fetchPackageMetaData Valid install targets:
+37 silly fetchPackageMetaData 1.17.3, 1.17.2, 1.17.1, 1.17.0, 1.16.1, 1.16.0, 1.15.2-alpha.2, 1.15.2-alpha.1, 1.15.1, 1.15.0, 1.14.12, 1.14.11, 1.14.10, 1.14.9, 1.14.9-alpha.1, 1.14.8, 1.14.8-alpha.1, 1.14.7, 1.14.6, 1.14.5, 1.14.4, 1.14.3, 1.14.2, 1.14.1, 1.14.0, 1.13.3, 1.13.2, 1.13.1, 1.13.0, 1.12.7, 1.12.6, 1.12.5, 1.12.4, 1.12.3, 1.12.2, 1.12.1, 1.12.0, 1.11.1, 1.11.0, 1.10.2, 1.10.1, 1.10.0, 1.9.2, 1.9.1, 1.9.0, 1.8.1, 1.8.0, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.6.1, 1.6.0, 1.5.1, 1.5.0, 1.5.0-alpha4, 1.5.0-alpha3, 1.5.0-alpha2, 1.5.0-alpha1, 1.4.10-alpha.3, 1.4.10-alpha.2, 1.4.10-alpha.1, 1.4.2, 1.4.1, 1.4.0, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.3.0-7, 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.1, 1.2.0, 1.1.1, 1.1.0, 1.1.0-alpha, 1.0.20, 1.0.19, 1.0.18, 1.0.17, 1.0.17-rc2, 1.0.17-rc1, 1.0.16, 1.0.15, 1.0.14, 1.0.13, 1.0.12, 1.0.11, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.2-rc4, 1.0.2-rc3, 1.0.2-rc, 1.0.1, 1.0.0, 0.9.17, 0.9.16, 0.9.14, 0.9.12, 0.9.11, 0.9.10, 0.9.7, 0.9.6, 0.9.5, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.7.10, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.23, 0.6.22, 0.6.21, 0.6.20, 0.6.19, 0.6.18, 0.6.17, 0.6.16, 0.6.15, 0.6.14, 0.6.13, 0.6.12, 0.6.11, 0.6.10, 0.6.10-a, 0.6.9, 0.6.8, 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.7, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4
+37 silly fetchPackageMetaData
+37 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+37 silly fetchPackageMetaData     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\node_modules\iferr\index.js:13:50
+37 silly fetchPackageMetaData     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+37 silly fetchPackageMetaData     at saved (C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\cache\caching-client.js:174:7)
+37 silly fetchPackageMetaData     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
+37 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+37 silly fetchPackageMetaData  error for nodemon@^1.17.12 { Error: No compatible version found: nodemon@^1.17.12
+37 silly fetchPackageMetaData Valid install targets:
+37 silly fetchPackageMetaData 1.17.3, 1.17.2, 1.17.1, 1.17.0, 1.16.1, 1.16.0, 1.15.2-alpha.2, 1.15.2-alpha.1, 1.15.1, 1.15.0, 1.14.12, 1.14.11, 1.14.10, 1.14.9, 1.14.9-alpha.1, 1.14.8, 1.14.8-alpha.1, 1.14.7, 1.14.6, 1.14.5, 1.14.4, 1.14.3, 1.14.2, 1.14.1, 1.14.0, 1.13.3, 1.13.2, 1.13.1, 1.13.0, 1.12.7, 1.12.6, 1.12.5, 1.12.4, 1.12.3, 1.12.2, 1.12.1, 1.12.0, 1.11.1, 1.11.0, 1.10.2, 1.10.1, 1.10.0, 1.9.2, 1.9.1, 1.9.0, 1.8.1, 1.8.0, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.6.1, 1.6.0, 1.5.1, 1.5.0, 1.5.0-alpha4, 1.5.0-alpha3, 1.5.0-alpha2, 1.5.0-alpha1, 1.4.10-alpha.3, 1.4.10-alpha.2, 1.4.10-alpha.1, 1.4.2, 1.4.1, 1.4.0, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.3.0-7, 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.1, 1.2.0, 1.1.1, 1.1.0, 1.1.0-alpha, 1.0.20, 1.0.19, 1.0.18, 1.0.17, 1.0.17-rc2, 1.0.17-rc1, 1.0.16, 1.0.15, 1.0.14, 1.0.13, 1.0.12, 1.0.11, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.2-rc4, 1.0.2-rc3, 1.0.2-rc, 1.0.1, 1.0.0, 0.9.17, 0.9.16, 0.9.14, 0.9.12, 0.9.11, 0.9.10, 0.9.7, 0.9.6, 0.9.5, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.7.10, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.23, 0.6.22, 0.6.21, 0.6.20, 0.6.19, 0.6.18, 0.6.17, 0.6.16, 0.6.15, 0.6.14, 0.6.13, 0.6.12, 0.6.11, 0.6.10, 0.6.10-a, 0.6.9, 0.6.8, 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.7, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4
+37 silly fetchPackageMetaData
+37 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+37 silly fetchPackageMetaData     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\node_modules\iferr\index.js:13:50
+37 silly fetchPackageMetaData     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+37 silly fetchPackageMetaData     at saved (C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\cache\caching-client.js:174:7)
+37 silly fetchPackageMetaData     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
+37 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: No compatible version found: nodemon@^1.17.12
+42 verbose stack Valid install targets:
+42 verbose stack 1.17.3, 1.17.2, 1.17.1, 1.17.0, 1.16.1, 1.16.0, 1.15.2-alpha.2, 1.15.2-alpha.1, 1.15.1, 1.15.0, 1.14.12, 1.14.11, 1.14.10, 1.14.9, 1.14.9-alpha.1, 1.14.8, 1.14.8-alpha.1, 1.14.7, 1.14.6, 1.14.5, 1.14.4, 1.14.3, 1.14.2, 1.14.1, 1.14.0, 1.13.3, 1.13.2, 1.13.1, 1.13.0, 1.12.7, 1.12.6, 1.12.5, 1.12.4, 1.12.3, 1.12.2, 1.12.1, 1.12.0, 1.11.1, 1.11.0, 1.10.2, 1.10.1, 1.10.0, 1.9.2, 1.9.1, 1.9.0, 1.8.1, 1.8.0, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.6.1, 1.6.0, 1.5.1, 1.5.0, 1.5.0-alpha4, 1.5.0-alpha3, 1.5.0-alpha2, 1.5.0-alpha1, 1.4.10-alpha.3, 1.4.10-alpha.2, 1.4.10-alpha.1, 1.4.2, 1.4.1, 1.4.0, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.3.0-7, 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.1, 1.2.0, 1.1.1, 1.1.0, 1.1.0-alpha, 1.0.20, 1.0.19, 1.0.18, 1.0.17, 1.0.17-rc2, 1.0.17-rc1, 1.0.16, 1.0.15, 1.0.14, 1.0.13, 1.0.12, 1.0.11, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.2-rc4, 1.0.2-rc3, 1.0.2-rc, 1.0.1, 1.0.0, 0.9.17, 0.9.16, 0.9.14, 0.9.12, 0.9.11, 0.9.10, 0.9.7, 0.9.6, 0.9.5, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.7.10, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.23, 0.6.22, 0.6.21, 0.6.20, 0.6.19, 0.6.18, 0.6.17, 0.6.16, 0.6.15, 0.6.14, 0.6.13, 0.6.12, 0.6.11, 0.6.10, 0.6.10-a, 0.6.9, 0.6.8, 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.7, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4
+42 verbose stack
+42 verbose stack     at pickVersionFromRegistryDocument (C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+42 verbose stack     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\node_modules\iferr\index.js:13:50
+42 verbose stack     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+42 verbose stack     at saved (C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\lib\cache\caching-client.js:174:7)
+42 verbose stack     at C:\Users\e5544323\AppData\Roaming\node\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
+42 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+43 verbose cwd C:\Users\e5544323\Downloads\Commodity-Search--master (1)\Commodity-Search--master\New folder (2)
+44 error Windows_NT 6.1.7601
+45 error argv "C:\\Users\\e5544323\\AppData\\Roaming\\node\\node.exe" "C:\\Users\\e5544323\\AppData\\Roaming\\node\\node_modules\\npm\\bin\\npm-cli.js" "install" "nodemon" "--save"
+46 error node v6.11.2
+47 error npm  v3.10.10
+48 error code ETARGET
+49 error notarget No compatible version found: nodemon@^1.17.12
+49 error notarget Valid install targets:
+49 error notarget 1.17.3, 1.17.2, 1.17.1, 1.17.0, 1.16.1, 1.16.0, 1.15.2-alpha.2, 1.15.2-alpha.1, 1.15.1, 1.15.0, 1.14.12, 1.14.11, 1.14.10, 1.14.9, 1.14.9-alpha.1, 1.14.8, 1.14.8-alpha.1, 1.14.7, 1.14.6, 1.14.5, 1.14.4, 1.14.3, 1.14.2, 1.14.1, 1.14.0, 1.13.3, 1.13.2, 1.13.1, 1.13.0, 1.12.7, 1.12.6, 1.12.5, 1.12.4, 1.12.3, 1.12.2, 1.12.1, 1.12.0, 1.11.1, 1.11.0, 1.10.2, 1.10.1, 1.10.0, 1.9.2, 1.9.1, 1.9.0, 1.8.1, 1.8.0, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.6.1, 1.6.0, 1.5.1, 1.5.0, 1.5.0-alpha4, 1.5.0-alpha3, 1.5.0-alpha2, 1.5.0-alpha1, 1.4.10-alpha.3, 1.4.10-alpha.2, 1.4.10-alpha.1, 1.4.2, 1.4.1, 1.4.0, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.3.0-7, 1.3.0-6, 1.3.0-5, 1.3.0-4, 1.3.0-3, 1.3.0-2, 1.3.0-1, 1.3.0-0, 1.2.1, 1.2.0, 1.1.1, 1.1.0, 1.1.0-alpha, 1.0.20, 1.0.19, 1.0.18, 1.0.17, 1.0.17-rc2, 1.0.17-rc1, 1.0.16, 1.0.15, 1.0.14, 1.0.13, 1.0.12, 1.0.11, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.2-rc4, 1.0.2-rc3, 1.0.2-rc, 1.0.1, 1.0.0, 0.9.17, 0.9.16, 0.9.14, 0.9.12, 0.9.11, 0.9.10, 0.9.7, 0.9.6, 0.9.5, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.7.10, 0.7.8, 0.7.7, 0.7.6, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.23, 0.6.22, 0.6.21, 0.6.20, 0.6.19, 0.6.18, 0.6.17, 0.6.16, 0.6.15, 0.6.14, 0.6.13, 0.6.12, 0.6.11, 0.6.10, 0.6.10-a, 0.6.9, 0.6.8, 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.7, 0.5.6, 0.5.5, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.8, 0.1.7, 0.1.6, 0.1.5, 0.1.4
+50 error notarget This is most likely not a problem with npm itself.
+50 error notarget In most cases you or one of your dependencies are requesting
+50 error notarget a package version that doesn't exist.
+51 verbose exit [ 1, true ]
