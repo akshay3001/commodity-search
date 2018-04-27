@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var Url = require('../model/url');
 var mongoose = require('mongoose');
+var LocalStorage = require('node-localstorage').LocalStorage;
+localStorage = new LocalStorage('./scratch');
 
 
 //  var db = 'mongodb://localhost/amazon';
@@ -36,10 +38,10 @@ router.post('/flip', function (req,res){
   });
 
   //end of flipkart router
-  
 
 
-router.post('/', function (req, res) {
+
+router.post('/a', function (req, res) {
 
     var title, price, imageurl, color;
     var json = {
@@ -61,10 +63,10 @@ router.post('/', function (req, res) {
     //   //     Producturl: req.body.Producturl
 
     //   //   },
-    var purl = req.body.url
+    var purl = localStorage.getItem("url");
 
 
-    console.log(purl)
+    console.log("purl: ",purl);
 
 
     request(purl, function (error, response, html) {

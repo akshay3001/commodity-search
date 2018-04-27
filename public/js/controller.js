@@ -6,7 +6,8 @@ angular.module("app")
                 'windowId': chrome.windows.WINDOW_ID_CURRENT
             },
             function (tabs) {
-                $scope.link = tabs[0].url;
+                $scope.link.url= tabs[0].url;
+                localStorage.setItem("url", $scope.link.url);
                 //console.log('link from $scope.link is 1 : ', $scope.link);
             });
 
