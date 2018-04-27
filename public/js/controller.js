@@ -19,7 +19,7 @@ angular.module("app")
             serv.postUrl(console.log('while posting data ', $scope.link)).then(function (res) {
                 console.log('res is: ', res.data);
                 $scope.res = res.data;
-                console.log('id is ',$scope.res._id)
+                console.log('id is ',$scope.res._id);
             });
         };
 
