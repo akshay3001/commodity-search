@@ -1,5 +1,5 @@
 angular.module("app")
-    .controller("ctrl", function ($scope, $window, serv) {
+    .controller("ctrl", function ($scope, $window, serv,$http) {
         $scope.link = {};
         chrome.tabs.query({
                 'active': true,
@@ -16,12 +16,17 @@ angular.module("app")
 
         //Service call for posting data:
         $scope.clickHereToGetLink = function () {
-            serv.postUrl(console.log('while posting data ', $scope.link)).then(function (res) {
-                console.log('res is: ', res.data);
+            serv.postUrl($scope.link).then(function (res) {
+                $http.post('http://localhost:3000/flipkart/',res).then(function(res){
+                    console.log(res);
+                })
+                console.log('res is: ', res);
                 $scope.res = res.data;
                 console.log('id is ',$scope.res._id);
             });
         };
+
+      
 
 
 

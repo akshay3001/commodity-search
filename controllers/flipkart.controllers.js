@@ -6,11 +6,12 @@ var LocalStorage = require('node-localstorage').LocalStorage;
 localStorage = new LocalStorage('./scratch');
 
 
+
 //  var db = 'mongodb://localhost/amazon';
 var db = 'mongodb://products:Akshay123@ds159129.mlab.com:59129/commodity-search';
 mongoose.connect(db);
 
-
+var toScrapper;
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
@@ -25,36 +26,71 @@ router.use(bodyParser.urlencoded({
 
 //for flipkart
 router.post('/flip', function (req,res){
-    var data = req.body;
+    // var data = req.body;
   
-    var link = new Url(data);
-    link.save(function (error, url) {
-      if (error) {
-        console.log(error);
-      } else {
-        res.status(200).send(url);
-      }
+    // var link = new Url(data);
+    // localStorage.setItem("url","google.com");
+    // console.log("local storage fetched data ",localStorage.getItem("url"));
+    // link.save(function (error, url) {
+    //   if (error) {
+    //     console.log(error);
+    //   } else {
+    //     res.status(200).send();
+    //   }
+    // });
+    
+    let body="";
+    req.on('data', chunk => {
+        body += chunk.toString(); // convert Buffer to string
     });
+    req.on('end', () => {
+        console.log('body = ',body);
+        toScrapper = body;
+        console.log('to scrapper ', toScrapper);
+        res.status(200).send(body);
+        res.end('ok');
+    });
+    
+    
+    
+    
   });
 
   //end of flipkart router
 
+  router.get('/getLink', function(req,res){
+
+  });
+
+  // RETURNS ALL THE USERS IN THE DATABASE
+router.get('/flip1', function (req, res) {
+    // User.find({}, function (err, users) {
+    //     if (err) return res.status(500).send("There was a problem finding the users.");
+    //     res.status(200).send(users);
+    // });
+    
+});
+
+console.log("outside fo the router,post", toScrapper);
 
 
-router.post('/a', function (req, res) {
 
+router.post('/', function (req, res) {
+console.log("ok");
     var title, price, imageurl, color;
     var json = {
 
-        title: "",
-        imageurl: "",
+        title: "1",
+        imageurl: "1",
 
-        price: "",
+        price: "11",
 
-        color: ""
+        color: "1"
 
 
     };
+    res.status(200).send(json);
+    
 
 
 
@@ -63,10 +99,12 @@ router.post('/a', function (req, res) {
     //   //     Producturl: req.body.Producturl
 
     //   //   },
-    var purl = localStorage.getItem("url");
+    var purl={};
+    purl.url="abc";
+    // purl = toScrapper;
 
 
-    console.log("purl: ",purl);
+    console.log("purl: ",toScrapper);
 
 
     request(purl, function (error, response, html) {
